@@ -17,7 +17,7 @@ import org.junit.Assert.*
 class ExampleInstrumentedTest {
     @Test
     fun useAppContext() {
-        // Context of the app under test2.
+        // Context of the app under test3.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.external.lastfmdata", appContext.packageName)
     }
